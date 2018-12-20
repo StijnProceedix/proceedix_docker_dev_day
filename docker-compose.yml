@@ -14,3 +14,7 @@ services:
       - "8081:80"
     depends_on:
       - "rabbitmq-daemon"
+  proceedix.opendoor:
+    build: Proceedix.Docker/Proceedix.OpenDoor/.    
+    depends_on:
+      - "rabbitmq-daemon"      

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Castle.Windsor" Version="4.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Proceedix.Interfaces\Proceedix.Interfaces.csproj" />
+    <ProjectReference Include="..\Proceedix.MessageBus.RabbitMQ\Proceedix.MessageBus.RabbitMQ.csproj" />
+    <ProjectReference Include="..\Proceedix.OpenDoorService\Proceedix.OpenDoorService.csproj" />
+  </ItemGroup>
+
+</Project>

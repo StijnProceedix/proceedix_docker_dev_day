@@ -3,3 +3,13 @@
 ################################################################################
 
 /Proceedix.Docker/.vs/Proceedix.Docker/v15
+/Proceedix.Docker/Proceedix.Interfaces/bin/Debug/netcoreapp2.1
+/Proceedix.Docker/Proceedix.Interfaces/obj
+/Proceedix.Docker/Proceedix.MessageBus.Messages/bin/Debug/netcoreapp2.1
+/Proceedix.Docker/Proceedix.MessageBus.Messages/obj
+/Proceedix.Docker/Proceedix.MessageBus.RabbitMQ/bin/Debug/netcoreapp2.1
+/Proceedix.Docker/Proceedix.MessageBus.RabbitMQ/obj
+/Proceedix.Docker/Proceedix.OpenDoor/bin/Debug/netcoreapp2.1
+/Proceedix.Docker/Proceedix.OpenDoor/obj
+/Proceedix.Docker/Proceedix.OpenDoorService/bin/Debug/netcoreapp2.1
+/Proceedix.Docker/Proceedix.OpenDoorService/obj

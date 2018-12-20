@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RabbitMQ.Client" Version="5.1.0" />
+    <PackageReference Include="System.Reactive" Version="4.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Proceedix.Interfaces\Proceedix.Interfaces.csproj" />
+    <ProjectReference Include="..\Proceedix.MessageBus.Messages\Proceedix.MessageBus.Messages.csproj" />
+  </ItemGroup>
+
+</Project>
